@@ -1,11 +1,30 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import Parent from './useEffect/Parent'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import UseMemoHookExample from './useMemo/useMemoHookExample';  // Fixed import name
 
-let root = ReactDOM.createRoot(document.getElementById("root"))
+let root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
     <>
-        <Parent />
+        <UseMemoHookExample />  
     </>
-)
+);
+
+
+
+
+
+
+
+
+// import React from 'react'
+// import ReactDOM from 'react-dom/client'
+// import Parent from './useEffect/Parent'
+
+// let root = ReactDOM.createRoot(document.getElementById("root"))
+
+// root.render(
+//     <>
+//         <Parent />
+//     </>
+// )
