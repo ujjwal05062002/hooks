@@ -1,14 +1,42 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import UseMemoHookExample from './useMemo/useMemoHookExample';  // Fixed import name
+import Parent from './useContext/Parent';
 
 let root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
     <>
-        <UseMemoHookExample />  
+        <Parent />
     </>
 );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import React from 'react';
+// import ReactDOM from 'react-dom/client';
+// import UseMemoHookExample from './useMemo/useMemoHookExample';  // Fixed import name
+
+// let root = ReactDOM.createRoot(document.getElementById("root"));
+
+// root.render(
+//     <>
+//         <UseMemoHookExample />  
+//     </>
+// );
 
 
 
