@@ -1,14 +1,38 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import Parent from './useContext/Parent';
+import React from "react";
+import ReactDOM from "react-dom/client"
+import Parent from "./useContext/Parent";
 
-let root = ReactDOM.createRoot(document.getElementById("root"));
+let root = ReactDOM.createRoot(document.getElementById("root"))
 
 root.render(
     <>
-        <Parent />
+    <Parent />
     </>
-);
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import React from 'react';
+// import ReactDOM from 'react-dom/client';
+// import Parent from './useContext/Parent';
+
+// let root = ReactDOM.createRoot(document.getElementById("root"));
+
+// root.render(
+//     <>
+//         <Parent />
+//     </>
+// );
 
 
 
